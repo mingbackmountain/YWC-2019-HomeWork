@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/YWC-2019-HomeWork/static/css/main.34de6062.chunk.css",
+    "main.js": "/YWC-2019-HomeWork/static/js/main.1492601b.chunk.js",
+    "main.js.map": "/YWC-2019-HomeWork/static/js/main.1492601b.chunk.js.map",
+    "runtime-main.js": "/YWC-2019-HomeWork/static/js/runtime-main.f18ec696.js",
+    "runtime-main.js.map": "/YWC-2019-HomeWork/static/js/runtime-main.f18ec696.js.map",
+    "static/js/2.39bb0dbe.chunk.js": "/YWC-2019-HomeWork/static/js/2.39bb0dbe.chunk.js",
+    "static/js/2.39bb0dbe.chunk.js.map": "/YWC-2019-HomeWork/static/js/2.39bb0dbe.chunk.js.map",
+    "index.html": "/YWC-2019-HomeWork/index.html",
+    "precache-manifest.ea495757eec84dc075d1922fcfbe4e3c.js": "/YWC-2019-HomeWork/precache-manifest.ea495757eec84dc075d1922fcfbe4e3c.js",
+    "service-worker.js": "/YWC-2019-HomeWork/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/YWC-2019-HomeWork/static/css/main.34de6062.chunk.css.map",
+    "static/media/banner-center.png": "/YWC-2019-HomeWork/static/media/banner-center.9e7d7f4a.png",
+    "static/media/banner-left.png": "/YWC-2019-HomeWork/static/media/banner-left.1b481040.png",
+    "static/media/banner-logo.png": "/YWC-2019-HomeWork/static/media/banner-logo.0b9c7c9c.png",
+    "static/media/banner-right.png": "/YWC-2019-HomeWork/static/media/banner-right.b28170f0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f18ec696.js",
+    "static/js/2.39bb0dbe.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.1492601b.chunk.js"
+  ]
+}
