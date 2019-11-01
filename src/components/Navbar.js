@@ -17,9 +17,11 @@ position: fixed;
 width: 100%;
 top: 0;
 z-index: 200;
+
 ${browserSizeRule.largePhone} {
   padding: 0 15px;
 }
+
 > img {
   width: 35px;
   height: 48px;
@@ -27,16 +29,19 @@ ${browserSizeRule.largePhone} {
     display: none;
   }
 }
+
 .hamburger {
   ${browserSizeRule.largePhone} {
     display: none;
   }
 }
+
 .navbar-link {
   flex: 1 0 100%;
   overflow: hidden;
   ${({ isOpen }) => (isOpen ? `height: 150px;` : `height: 0px;`)}
   transition: height ease-in-out 350ms;
+
   ${browserSizeRule.largePhone} {
     height: auto;
   }
@@ -48,14 +53,18 @@ ${browserSizeRule.largePhone} {
       text-align: center;
       padding-top: 5px;
     }
-    li {
+  }
+
+  li {
       list-style: none;
       padding: 10px 0;
       text-align: right;
+
       ${browserSizeRule.largePhone} {
         padding: 14px 15px;
         display: inline-block;
       }
+
       a {
         color: rgba(0, 0, 0, 0.5);
         text-decoration: none;
@@ -64,6 +73,7 @@ ${browserSizeRule.largePhone} {
           font-size: 0.875rem;
           font-family: 'TATSanaChon';
         }
+
         :focus {
           color: #000;
         }
@@ -85,7 +95,7 @@ export default ({navbarItems}) => {
             <div className='navbar-link'>
                  <ul>
                     {navbarItems.map(item => (
-                    <li className='hover' key={item.label}>
+                    <li key={item.label}>
                         <a href={item.href}>{item.label}</a>
                     </li>
                     ))}
