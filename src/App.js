@@ -13,8 +13,10 @@ import ConditionDetail from './components/ConditionDetail'
 import GlobalStyle from './components/GlobalStyle'
 import {useData} from './utils/data'
 
+
 function App() {
   const data =  useData()
+
   if (data) {
     return(
       <div>
@@ -35,7 +37,7 @@ function App() {
     )
   }
   return(
-    <div>Bye Bye YWC</div>
+    <div>Bye Bye ywc</div>
   )
 }
 
