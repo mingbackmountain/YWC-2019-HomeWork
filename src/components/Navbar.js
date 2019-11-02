@@ -74,8 +74,8 @@ ${browserSizeRule.largePhone} {
           font-family: 'TATSanaChon';
         }
 
-        :focus {
-          color: #000;
+        :hover {
+          color: #007bff;
         }
       }
     }
