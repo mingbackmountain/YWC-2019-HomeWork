@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import {browserSizeRule} from '../utils/style'
+import dompurify from 'dompurify';
 
 const DetailContainer = styled.div`
   margin-bottom: 40px;
@@ -35,6 +36,10 @@ const DetailContainer = styled.div`
 `
 
 export default ({detail}) => {
+    const sanitizer = dompurify.sanitize;
+    const cleanDetail = sanitizer(detail,{ALLOWED_TAGS:['span','br'],ADD_ATTR:['class']})
+    console.log(detail)
+    console.log(cleanDetail)
     return(
         <DetailContainer>
            <h1>
@@ -43,7 +48,7 @@ export default ({detail}) => {
                 ในประเทศ <span className='no-wrap'>“ชิมช้อปใช้”</span>
            </h1>
             <div>
-              <div dangerouslySetInnerHTML={{ __html: detail }} />
+              <div dangerouslySetInnerHTML={{ __html: cleanDetail }} />
             </div>
         </DetailContainer>
     )
