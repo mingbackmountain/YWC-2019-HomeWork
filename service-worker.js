@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/YWC-2019-HomeWork/precache-manifest.07bd5f5848e6c6ab2cefc5f06e0b47ec.js"
+  "/YWC-2019-HomeWork/precache-manifest.18725c28a8d7fbc0b30da730a7f8ec4b.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8336392f94b5528497a28e914d68184",
+    "revision": "9e0ac352186b2a3c3933547cbfbe23ca",
     "url": "/YWC-2019-HomeWork/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YWC-2019-HomeWork/static/js/2.a0b5dd43.chunk.js"
   },
   {
-    "revision": "3efcb690e7402328ec66",
-    "url": "/YWC-2019-HomeWork/static/js/main.9d59678b.chunk.js"
+    "revision": "9bced115eb5628ae9c08",
+    "url": "/YWC-2019-HomeWork/static/js/main.4f95528e.chunk.js"
   },
   {
     "revision": "e1bff4bdd898fdabf5b5",
