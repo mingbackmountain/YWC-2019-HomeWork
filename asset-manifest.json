@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/YWC-2019-HomeWork/static/js/main.90ba3692.chunk.js",
-    "main.js.map": "/YWC-2019-HomeWork/static/js/main.90ba3692.chunk.js.map",
+    "main.js": "/YWC-2019-HomeWork/static/js/main.9d59678b.chunk.js",
+    "main.js.map": "/YWC-2019-HomeWork/static/js/main.9d59678b.chunk.js.map",
     "runtime-main.js": "/YWC-2019-HomeWork/static/js/runtime-main.f18ec696.js",
     "runtime-main.js.map": "/YWC-2019-HomeWork/static/js/runtime-main.f18ec696.js.map",
-    "static/js/2.fd7a03d6.chunk.js": "/YWC-2019-HomeWork/static/js/2.fd7a03d6.chunk.js",
-    "static/js/2.fd7a03d6.chunk.js.map": "/YWC-2019-HomeWork/static/js/2.fd7a03d6.chunk.js.map",
+    "static/js/2.a0b5dd43.chunk.js": "/YWC-2019-HomeWork/static/js/2.a0b5dd43.chunk.js",
+    "static/js/2.a0b5dd43.chunk.js.map": "/YWC-2019-HomeWork/static/js/2.a0b5dd43.chunk.js.map",
     "index.html": "/YWC-2019-HomeWork/index.html",
-    "precache-manifest.4345c7d6406345cadabb8d9cbaee98f0.js": "/YWC-2019-HomeWork/precache-manifest.4345c7d6406345cadabb8d9cbaee98f0.js",
+    "precache-manifest.07bd5f5848e6c6ab2cefc5f06e0b47ec.js": "/YWC-2019-HomeWork/precache-manifest.07bd5f5848e6c6ab2cefc5f06e0b47ec.js",
     "service-worker.js": "/YWC-2019-HomeWork/service-worker.js",
     "static/media/Banner_CGD_Sq.png": "/YWC-2019-HomeWork/static/media/Banner_CGD_Sq.6c42699d.png",
     "static/media/Banner_KTB_SQ.png": "/YWC-2019-HomeWork/static/media/Banner_KTB_SQ.ed683f12.png",
@@ -25,7 +25,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f18ec696.js",
-    "static/js/2.fd7a03d6.chunk.js",
-    "static/js/main.90ba3692.chunk.js"
+    "static/js/2.a0b5dd43.chunk.js",
+    "static/js/main.9d59678b.chunk.js"
   ]
 }
